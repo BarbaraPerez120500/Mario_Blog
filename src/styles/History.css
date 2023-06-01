@@ -41,10 +41,11 @@
 
 .card:hover {
   transform: translateY(20px);
-  background: url(https://files.cults3d.com/uploaders/19867497/illustration-file/b0f28f28-62c5-40c4-8c15-71ee78ed71db/Mi-video-1.gif)
-    center;
+  background: url(https://imagehost9.online-image-editor.com/oie_upload/images/135434bJD395/155351WT3V5SQP.gif)center;
+  background-size: cover;
+  display: block;
   box-shadow: 10px 8px 20px rgba(5, 8, 14, 0.767);
-  transform: translatey(-5%);
+  opacity: 1;
 }
 
 .card:before {
@@ -74,7 +75,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.7;
+  opacity: 0.5;
+
 }
 
 .card .info {
