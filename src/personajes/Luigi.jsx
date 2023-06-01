@@ -80,9 +80,14 @@ const Luigi = () => {
   };
 
   const audioluigi = function (audio) {
+    
     const reproducir = new Audio(audio);
     reproducir.play();
+    
   };
+
+
+ 
 
   return (
     <>
@@ -93,7 +98,9 @@ const Luigi = () => {
           <img
             className="pers"
             src={mario}
-            onClick={() => audioluigi(Saludomario)}
+            onClick={() => audioluigi(Saludomario) }
+
+           
             height={300}
           />
 
